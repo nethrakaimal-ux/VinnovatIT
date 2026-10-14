@@ -5,7 +5,7 @@ A premium, keyboard-driven Linux environment built around **i3wm**, compiled wit
 ## Core Features & Compliance Mapping
 
 ### 1. Consistent Visual Theme
-The environment utilizes a strict universally inherited across the window borders, status bars, and terminal environments, reducing eye fatigue during deep-work cycles.
+The environment utilizes a strict theme universally inherited across the window borders, status bars, and terminal environments, reducing eye fatigue during deep-work cycles.
 
 ### 2. High-Efficiency Keyboard Bindings
 Fully driven by the standard system modifier (`Mod4` / Super Key):
