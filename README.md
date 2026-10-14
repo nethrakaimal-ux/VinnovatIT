@@ -1,6 +1,6 @@
 # Keyboard-Driven Developer Desktop Configuration
 
-A premium, keyboard-driven Linux environment built around **i3wm** and **Kitty Terminal**, compiled with a cohesive **Catppuccin Mocha** color palette. Engineered explicitly to streamline workflows across Web Development and local AI/ML engineering environments.
+A premium, keyboard-driven Linux environment built around **i3wm**, compiled with a cohesive color palette. Engineered explicitly to streamline workflows across Web Development and local AI/ML engineering environments.
 
 ## Core Features & Compliance Mapping
 
@@ -9,7 +9,7 @@ The environment utilizes a strict **Catppuccin Mocha color layout** universally 
 
 ### 2. High-Efficiency Keyboard Bindings (Requirement #2)
 Fully driven by the standard system modifier (`Mod4` / Super Key):
-* `Super + Return` ── Launch GPU-accelerated **Kitty Terminal**
+* `Super + Return` ── Launch GPU-accelerated
 * `Super + D` ── Trigger **Rofi App Launcher**
 * `Super + Shift + Q` ── Terminate active application container
 * `PrintScreen` ── Instant cropped screenshot via **Maim**
