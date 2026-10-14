@@ -4,18 +4,18 @@ A premium, keyboard-driven Linux environment built around **i3wm**, compiled wit
 
 ## Core Features & Compliance Mapping
 
-### 1. Consistent Visual Theme (Requirement #1)
-The environment utilizes a strict **Catppuccin Mocha color layout** universally inherited across the window borders, status bars, and terminal environments, reducing eye fatigue during deep-work cycles.
+### 1. Consistent Visual Theme
+The environment utilizes a strict universally inherited across the window borders, status bars, and terminal environments, reducing eye fatigue during deep-work cycles.
 
-### 2. High-Efficiency Keyboard Bindings (Requirement #2)
+### 2. High-Efficiency Keyboard Bindings
 Fully driven by the standard system modifier (`Mod4` / Super Key):
-* `Super + Return` ── Launch GPU-accelerated
+* `Super + Return` ── Launch GPU-accelerated Terminal Engine
 * `Super + D` ── Trigger **Rofi App Launcher**
 * `Super + Shift + Q` ── Terminate active application container
 * `PrintScreen` ── Instant cropped screenshot via **Maim**
 * `Super + [1-5]` ── Rapid dynamic workspace hopping
 
-### 3. Real-Time Resource Analytics Module (Requirement #3)
+### 3. Real-Time Resource Analytics Module
 Includes a tailored automation shell script (`scripts/sys_monitor.sh`) operating as a refreshable daemon on the top status strip. It tracks real-time CPU throttling and volatile RAM boundaries—vital parameters when validating heavy deep learning model training routines locally.
 
 ## Repository Pipeline Placement
