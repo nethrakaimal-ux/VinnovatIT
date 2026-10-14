@@ -1,27 +1,22 @@
 font pango:JetBrainsMono Nerd Font 10
 
-# Modifier key (Mod4 = Windows/Super Key)
 set $mod Mod4
 
-# Core Navigation & Workspace Shortcuts (Requirement 2)
 floating_modifier $mod
 bindsym $mod+Return exec kitty
 bindsym $mod+d exec rofi -show drun
 bindsym $mod+Shift+q kill
 
-# Focus Window
 bindsym $mod+j focus left
 bindsym $mod+k focus down
 bindsym $mod+l focus up
 bindsym $mod+semicolon focus right
 
-# Move Window
 bindsym $mod+Shift+j move left
 bindsym $mod+Shift+k move down
 bindsym $mod+Shift+l move up
 bindsym $mod+Shift+semicolon move right
 
-# Named Workspaces for AI/Web Dev Workflows (Bonus Feature)
 set $ws1 "1: WebDev"
 set $ws2 "2: Code"
 set $ws3 "3: AI/ML"
@@ -40,10 +35,8 @@ bindsym $mod+Shift+3 move container to workspace number $ws3
 bindsym $mod+Shift+4 move container to workspace number $ws4
 bindsym $mod+Shift+5 move container to workspace number $ws5
 
-# Screenshot Shortcuts (Requirement 2)
 bindsym Print exec maim -s ~/Pictures/$(date +%Y-%m-%d-%H%M%S).png
 
-# --- Catppuccin Mocha Color Palette (Requirement 1) ---
 # class                 border  backgr. text    indicator child_border
 client.focused          #cdd6f4 #1e1e2e #cdd6f4 #89b4fa   #89b4fa
 client.focused_inactive #313244 #181825 #a6adc8 #45475a   #45475a
@@ -53,7 +46,7 @@ client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
 client.background       #1e1e2e
 
 bar {
-    status_command bash ~/.config/scripts/sys_monitor.sh
+    status_command bash ~/scripts/sys_monitor.sh
     position top
     colors {
         background #1e1e2e
